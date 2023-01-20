@@ -1,0 +1,50 @@
+h1 {
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*  Classes e IDs*/
+
+.p-texto {
+    color: lightgreen;
+}
+
+#titulo-app {
+    color: brown;
+}
+
+/* Cores */
+
+.nome {
+    color: crimson;
+}
+
+.hexa {
+    color: #2596be;
+}
+
+.rgba {
+color: rgba(127, 17, 224, 1);
+}
+
+/* Backgrounds */
+
+.div-background {
+    background-image: url('img/por-do-sol.jpg');
+    height: 300px;
+}
+
+.titulo-background {
+    text-align:  center;
+    background-color: black;
+    color: white;
+}
