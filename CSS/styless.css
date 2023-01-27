@@ -184,7 +184,78 @@ body {
     position: sticky;
     background-color: aqua;
     top: 0px;
-
-
 }
 
+/* Float */
+
+.container {
+    padding: 50px;
+}
+
+.div-float {
+    overflow: auto;
+}
+
+.img-float{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.p-float {
+    color: black;
+}
+
+.clear {
+    clear: both;
+}
+
+div p  {
+    color: black;
+}
+
+/* Units */
+
+.pixel-1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;  
+}
+
+.pixel-2 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;  
+}
+
+.pai-porcentagem {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+
+.porcentagem-1{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+}
+
+.pai-em {
+    font-size: 50px;
+}
+
+.em-1 {
+    width: 1em;
+    height: 1em;
+    background-color: purple;
+}
+
+.rem-1 {
+    width: 1rem;
+    height: 1rem;
+    background-color: blue;
+}
